@@ -60,7 +60,7 @@
           <i class="fa fa-file-text-o mr-2" aria-hidden="true"></i>
           Cadastrar Consultas
         </h2>
-        <form class="col-12">
+        <form class="col-12" novalidate>
           <div class="form-group">
             <label for="nome">Nome do Paciente</label>
             <input type="text" class="form-control" id="nome" placeholder="ex: Severus Snape" required>
@@ -86,5 +86,10 @@
         </form>
         </section>
     </section>
+    <script type="text/javascript" src='./js/model//Pessoa.js'></script>
+    <script type="text/javascript" src="./js/model/Consulta.js"></script>
+    <script type="text/javascript" >
+      var consulta = new Consulta();
+    </script>
   </body>
 </html>
